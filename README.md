@@ -12,14 +12,14 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```bash
-$ npm install passport-google-oauth20
+$ npm install passport-delta-oauth2
 ```
 
 ## Usage
 
 #### Create an Application
 
-Before using `passport-delta-oauth20`, you must register an application with
+Before using `passport-delta-oauth2`, you must register an application with
 DAuth. Refer [DAuth Documentation](https://delta.github.io/DAuth-Docs) for more information.
 
 #### Configure Strategy
@@ -66,7 +66,7 @@ app.get(
 
 * [express-passport-dauth-example](https://github.com/delta/express-passport-dauth-example)
 
-  Illustrates how to use the Google strategy within an [Express](https://expressjs.com)
+  Illustrates how to use the DAuth strategy within an [Express](https://expressjs.com)
   application.
 
 ## License
