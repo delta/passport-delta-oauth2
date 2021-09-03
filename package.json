@@ -1,0 +1,35 @@
+{
+  "name": "passport-delta-oauth2",
+  "version": "1.0.0",
+  "description": "DAuth (OAuth2.0) authentication strategy for Passport.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delta/passport-delta-oauth2.git"
+  },
+  "keywords": [
+    "auth",
+    "oauth2",
+    "delta",
+    "nitt",
+    "passport"
+  ],
+  "author": "Delta Force",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delta/passport-delta-oauth2/issues"
+  },
+  "homepage": "https://github.com/delta/passport-delta-oauth2#readme",
+  "dependencies": {
+    "node-fetch": "^2.0.0",
+    "passport-oauth2": "^1.6.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
