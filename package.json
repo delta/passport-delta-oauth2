@@ -1,6 +1,6 @@
 {
   "name": "passport-delta-oauth2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DAuth (OAuth2.0) authentication strategy for Passport.",
   "main": "lib/index.js",
   "scripts": {
